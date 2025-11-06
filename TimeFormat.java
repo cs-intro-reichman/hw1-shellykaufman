@@ -19,6 +19,7 @@ public class TimeFormat {
 		if(hours == 12){
 					time = hours + ":" + min + " PM";
 				}
+				
 		if(hours > 12 && hours <=23){
 				time = hours - 12 + ":" + min + " PM";
 		}
