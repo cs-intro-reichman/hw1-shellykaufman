@@ -16,7 +16,10 @@ public class TimeFormat {
 		if (hours >= 0 && hours <=11){
 				time = hours + ":" + min + " AM";
 		}
-		if(hours >= 12 && hours <=23){
+		if(hours == 12){
+					time = hours + ":" + min + " PM";
+				}
+		if(hours > 12 && hours <=23){
 				time = hours - 12 + ":" + min + " PM";
 		}
 		System.out.println(time);
