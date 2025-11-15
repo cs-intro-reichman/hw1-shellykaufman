@@ -25,4 +25,7 @@ public class TimeFormat {
 		}
 		System.out.println(time);
 	}
+
 }
+
+// Great job!
