@@ -5,3 +5,7 @@ public class NumWords {
 		System.out.println(number/100 + " hundreds, " + (number/10)%10 + " tens, and " + number%10 + " ones.");
 	}
 }
+
+// I would have taken the calculations into variables:
+// int hundreds = number/100 
+// and then System.out.print(hundreds + )....
