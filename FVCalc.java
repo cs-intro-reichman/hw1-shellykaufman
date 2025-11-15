@@ -10,3 +10,5 @@ public class FVCalc {
                    " saved at " + (rate * 100) + "% will yield $" + (int) futureValue);
 	}
 }
+
+// Great job!
